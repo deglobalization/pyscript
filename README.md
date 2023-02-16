@@ -152,3 +152,15 @@ Report it here: https://github.com/derekeder/csv-to-html-table/issues
 ## Copyright
 
 Copyright (c) 2018 Derek Eder. Released under the [MIT License](https://github.com/derekeder/csv-to-html-table/blob/master/LICENSE).
+
+echo "# data" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/deglobalization/data.git
+git push -u origin main
+
+git remote add origin https://github.com/deglobalization/data.git
+git branch -M main
+git push -u origin main
